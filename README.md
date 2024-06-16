@@ -7,6 +7,7 @@ This is an example, where we will create Infrastructure as code using terraform 
 # Prerequisites:
 
 Azure DevOps account.
+install terraform tasks from marcket place, incase its not installed yet: https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks
 Terraform installed on the build agent.
 Service principal for Terraform to authenticate with Azure.
 Terraform Configuration Files:
