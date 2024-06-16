@@ -15,9 +15,23 @@ Create your Terraform configuration files (main.tf, variables.tf, outputs.tf).
 
 ![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/d0967c69-a6cf-482b-afdc-d47e11eb34c9)
 
-
 # Azure DevOps Pipeline Configurations:
 In this example we are going to create two pipeline templateswith parameters for deploying infrastructure 
-Create two pipeline templates (.yml files)
+Create two pipeline templates (.yml files) ((Check in the repo))
 1. template-terraform-stages.yml  (For deploying the infra as code on dev, test, prod)
-2. template-create-terraform-backend.yml ()
+2. template-create-terraform-backend.yml (For deploying backends, resource groups)
+
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/611af05b-506c-4d6f-96f5-3d6450a2c51b)
+
+# Create a pipline and call the previousely created 2 pipeline templates
+azure-pipelines1.yml (Check in the repo)
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/ed0e93dd-01a6-48ed-aef3-6487b7ba728e)
+Create a new service connection with name AzureServiceConnection to connect to Azure Service before deploying resources.
+or Replace the  backendServiceArm: 'AzureServiceConnection' with your service connection, if yopu have already created
+
+Follow the steps from LOP, Pipelines lab - how to create a service connection and use in your pipeline
+
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/ae00f420-28b0-4ffe-b2b4-4dad95cf24d2)
+
+Save your pipeline and run
+After a successful deployment, you can go to your Azure subscription and see the deployments
