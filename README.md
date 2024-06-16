@@ -14,7 +14,8 @@ Terraform Configuration Files:
 Create your Terraform configuration files (main.tf, variables.tf, outputs.tf).
 - Create a folder with name Terraform and add the terraform files under that for your infrastructure as code
 
-![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/d0967c69-a6cf-482b-afdc-d47e11eb34c9)
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/ebc31350-1f5c-465f-a74a-05633f7a5a36)
+
 
 # Azure DevOps Pipeline Configurations:
 In this example we are going to create two pipeline templateswith parameters for deploying infrastructure 
