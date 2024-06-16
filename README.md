@@ -35,4 +35,16 @@ Follow the steps from LOP, Pipelines lab - how to create a service connection an
 ![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/ae00f420-28b0-4ffe-b2b4-4dad95cf24d2)
 
 Save your pipeline and run
-After a successful deployment, you can go to your Azure subscription and see the deployments
+
+The pipeline looks like this:
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/8ca5cd18-e50e-4d5a-99da-4b6de5c35c8e)
+
+After a successful deployment, you can go to your Azure subscription and check the below resource groups should be created 
+
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/224912b1-fe52-4da4-b2f7-63943ec31a06)
+
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/6fab8c2e-9c61-4834-8cd4-e4aee58f1987)
+
+![image](https://github.com/damayantiazure/pipeline_template_terraform/assets/92169356/a0ea4957-15f8-4402-ac23-faf7a9db11d3)
+
+
